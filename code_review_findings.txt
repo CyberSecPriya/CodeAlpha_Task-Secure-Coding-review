@@ -1,0 +1,21 @@
+Manual Secure Code Review – Findings
+
+File Reviewed: insecure_login.py
+Language: Python
+
+Security Issues Identified:
+
+1. Hardcoded credentials
+   - Risk: Easy for attackers to discover and bypass authentication.
+
+2. No input sanitization
+   - Risk: Vulnerable to injection or unexpected input.
+
+3. No password hashing or encryption
+   - Risk: Plain text passwords can be exposed.
+
+4. No lockout or retry limits
+   - Risk: Vulnerable to brute-force attacks.
+
+5. No logging of failed login attempts
+   - Risk: Attacks may go undetected.
