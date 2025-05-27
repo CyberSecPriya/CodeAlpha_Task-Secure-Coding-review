@@ -76,14 +76,13 @@ The output shows the difference between insecure and secure coding practices in 
 
 When you run it:
 
-
+![Image](https://github.com/user-attachments/assets/5fcf2e59-abac-4fc2-82a7-b5ab071602ac)
 
 **Test Case 2 – Wrong Username or Password**
 
 When you run it:
 
-
-
+![Image](https://github.com/user-attachments/assets/3bbc8370-5534-4df1-ae7f-d65780913d72)
 
 # What’s Happening Behind the Scenes:
 
