@@ -62,6 +62,48 @@ It’s a beginner-friendly project that showcases how small changes can make big
 
 - Safe comparison with stored hash.
 
+# Output
+
+The output shows the difference between insecure and secure coding practices in action, making it easy to understand the impact of secure code.
+
+**Insecure Version**
+
+
+
+**Secure Version**
+
+**Test Case 1 – Correct Credentials**
+
+When you run it:
+
+
+
+**Test Case 2 – Wrong Username or Password**
+
+When you run it:
+
+
+
+
+# What’s Happening Behind the Scenes:
+
+- The password you enter is hashed using SHA-256.
+
+- It compares the hashed version to the one stored in the `users` dictionary.
+
+- If they match, you get access. If not, it denies login.
+
+
+# How It Works
+
+Both versions of the login system ask the user for a username and password.
+
+- In the **insecure version**, credentials are hardcoded and compared directly.
+  
+- In the **secure version**, the password input is hidden using `getpass` and securely hashed using `hashlib`. The hash is then compared with a stored value to verify access.
+
+This shows the difference in security and why even simple scripts should follow best practices.
+
 # Tools & Concepts Used
 
 - Python 3.
@@ -83,3 +125,7 @@ It’s a beginner-friendly project that showcases how small changes can make big
 - Reviewing and refactoring insecure code.
  
 - Clear documentation and technical writing for cybersecurity.
+
+# Conclusion
+
+This project highlights the importance of writing secure code by demonstrating how small improvements like hiding passwords and using hashing can significantly enhance application security.
