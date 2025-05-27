@@ -68,7 +68,7 @@ The output shows the difference between insecure and secure coding practices in 
 
 **Insecure Version**
 
-
+![Image](https://github.com/user-attachments/assets/16208dd8-adbc-4054-a3b8-2467f8134e6c)
 
 **Secure Version**
 
